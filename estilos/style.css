@@ -75,9 +75,10 @@ main{
     height: 100%;
     border: 0px;
     border-radius: 8px;
-    width: calc(100%- 44px);
+    width: calc(100%- 44%);
+    padding-bottom: 4px;
+    padding-top: 4px;
     transform: translateY(-12px);
-    padding: 4px;
 }
 .campo > input:focus-within{
     background-color: white;
