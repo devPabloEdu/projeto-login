@@ -65,20 +65,19 @@ main{
 }
 .campo > span{
     color: white;
-    font-size: 2em;
+    font-size: 1.9em;
     width: 40px;
     padding: 5px;
 }
 .campo > input{
-    background-color: #8ccfcd;
+    background-color: #94cfcd;
     font-size: 1em;
+    width: calc(100% - 45px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
-    width: calc(100%- 44%);
-    padding-bottom: 4px;
-    padding-top: 4px;
-    transform: translateY(-12px);
+    padding: 4px;
+    transform: translateY(-10px)
 }
 .campo > input:focus-within{
     background-color: white;
